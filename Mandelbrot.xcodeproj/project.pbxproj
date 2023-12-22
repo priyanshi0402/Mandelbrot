@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C0387FD2B340AE900EF33E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0387FC2B340AE900EF33E1 /* AppDelegate.swift */; };
+		2C0387FF2B340AE900EF33E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0387FE2B340AE900EF33E1 /* SceneDelegate.swift */; };
+		2C0388042B340AE900EF33E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0388022B340AE900EF33E1 /* Main.storyboard */; };
+		2C0388062B340AEB00EF33E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0388052B340AEB00EF33E1 /* Assets.xcassets */; };
+		2C0388092B340AEB00EF33E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0388072B340AEB00EF33E1 /* LaunchScreen.storyboard */; };
+		2C0388122B340F1000EF33E1 /* Mandelbrot_sequence.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2C0388112B340F1000EF33E1 /* Mandelbrot_sequence.gif */; };
+		2C0388152B3410B800EF33E1 /* MandelbrotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0388142B3410B800EF33E1 /* MandelbrotManager.swift */; };
+		2C2F0B6E2B3426D900907EE5 /* AutoZoomInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F0B6D2B3426D900907EE5 /* AutoZoomInViewController.swift */; };
+		2C2F0B722B34668500907EE5 /* ManualZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F0B712B34668500907EE5 /* ManualZoomViewController.swift */; };
+		2CD4A2A02B3553FF00607F03 /* ChooseOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4A29F2B3553FF00607F03 /* ChooseOptionViewController.swift */; };
+		2CD4A2A32B355D4D00607F03 /* OptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD4A2A12B355D4D00607F03 /* OptionsTableViewCell.swift */; };
+		2CD4A2A42B355D4D00607F03 /* OptionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD4A2A22B355D4D00607F03 /* OptionsTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C0387F92B340AE900EF33E1 /* Mandelbrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mandelbrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0387FC2B340AE900EF33E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C0387FE2B340AE900EF33E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C0388032B340AE900EF33E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C0388052B340AEB00EF33E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C0388082B340AEB00EF33E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C03880A2B340AEB00EF33E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C0388112B340F1000EF33E1 /* Mandelbrot_sequence.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Mandelbrot_sequence.gif; sourceTree = "<group>"; };
+		2C0388142B3410B800EF33E1 /* MandelbrotManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandelbrotManager.swift; sourceTree = "<group>"; };
+		2C2F0B6D2B3426D900907EE5 /* AutoZoomInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoZoomInViewController.swift; sourceTree = "<group>"; };
+		2C2F0B712B34668500907EE5 /* ManualZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualZoomViewController.swift; sourceTree = "<group>"; };
+		2CD4A29F2B3553FF00607F03 /* ChooseOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseOptionViewController.swift; sourceTree = "<group>"; };
+		2CD4A2A12B355D4D00607F03 /* OptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsTableViewCell.swift; sourceTree = "<group>"; };
+		2CD4A2A22B355D4D00607F03 /* OptionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionsTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C0387F62B340AE900EF33E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C0387F02B340AE900EF33E1 = {
+			isa = PBXGroup;
+			children = (
+				2C0387FB2B340AE900EF33E1 /* Mandelbrot */,
+				2C0387FA2B340AE900EF33E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C0387FA2B340AE900EF33E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C0387F92B340AE900EF33E1 /* Mandelbrot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C0387FB2B340AE900EF33E1 /* Mandelbrot */ = {
+			isa = PBXGroup;
+			children = (
+				2C0388102B340EF100EF33E1 /* Resources */,
+				2C0388132B3410A200EF33E1 /* Helper */,
+				2CD4A2A72B355F1F00607F03 /* Controllers */,
+				2CD4A2A52B355F0800607F03 /* Cells */,
+				2C0387FC2B340AE900EF33E1 /* AppDelegate.swift */,
+				2C0387FE2B340AE900EF33E1 /* SceneDelegate.swift */,
+				2C0388052B340AEB00EF33E1 /* Assets.xcassets */,
+				2C0388022B340AE900EF33E1 /* Main.storyboard */,
+				2C0388072B340AEB00EF33E1 /* LaunchScreen.storyboard */,
+				2C03880A2B340AEB00EF33E1 /* Info.plist */,
+			);
+			path = Mandelbrot;
+			sourceTree = "<group>";
+		};
+		2C0388102B340EF100EF33E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C0388112B340F1000EF33E1 /* Mandelbrot_sequence.gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2C0388132B3410A200EF33E1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2C0388142B3410B800EF33E1 /* MandelbrotManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2CD4A2A52B355F0800607F03 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2CD4A2A62B355F0D00607F03 /* UITableViewController */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2CD4A2A62B355F0D00607F03 /* UITableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2CD4A2A12B355D4D00607F03 /* OptionsTableViewCell.swift */,
+				2CD4A2A22B355D4D00607F03 /* OptionsTableViewCell.xib */,
+			);
+			path = UITableViewController;
+			sourceTree = "<group>";
+		};
+		2CD4A2A72B355F1F00607F03 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CD4A29F2B3553FF00607F03 /* ChooseOptionViewController.swift */,
+				2C2F0B6D2B3426D900907EE5 /* AutoZoomInViewController.swift */,
+				2C2F0B712B34668500907EE5 /* ManualZoomViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C0387F82B340AE900EF33E1 /* Mandelbrot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C03880D2B340AEB00EF33E1 /* Build configuration list for PBXNativeTarget "Mandelbrot" */;
+			buildPhases = (
+				2C0387F52B340AE900EF33E1 /* Sources */,
+				2C0387F62B340AE900EF33E1 /* Frameworks */,
+				2C0387F72B340AE900EF33E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mandelbrot;
+			productName = Mandelbrot;
+			productReference = 2C0387F92B340AE900EF33E1 /* Mandelbrot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C0387F12B340AE900EF33E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2C0387F82B340AE900EF33E1 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2C0387F42B340AE900EF33E1 /* Build configuration list for PBXProject "Mandelbrot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C0387F02B340AE900EF33E1;
+			productRefGroup = 2C0387FA2B340AE900EF33E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C0387F82B340AE900EF33E1 /* Mandelbrot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C0387F72B340AE900EF33E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0388092B340AEB00EF33E1 /* LaunchScreen.storyboard in Resources */,
+				2C0388062B340AEB00EF33E1 /* Assets.xcassets in Resources */,
+				2CD4A2A42B355D4D00607F03 /* OptionsTableViewCell.xib in Resources */,
+				2C0388042B340AE900EF33E1 /* Main.storyboard in Resources */,
+				2C0388122B340F1000EF33E1 /* Mandelbrot_sequence.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C0387F52B340AE900EF33E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2F0B6E2B3426D900907EE5 /* AutoZoomInViewController.swift in Sources */,
+				2C2F0B722B34668500907EE5 /* ManualZoomViewController.swift in Sources */,
+				2CD4A2A02B3553FF00607F03 /* ChooseOptionViewController.swift in Sources */,
+				2C0387FD2B340AE900EF33E1 /* AppDelegate.swift in Sources */,
+				2CD4A2A32B355D4D00607F03 /* OptionsTableViewCell.swift in Sources */,
+				2C0387FF2B340AE900EF33E1 /* SceneDelegate.swift in Sources */,
+				2C0388152B3410B800EF33E1 /* MandelbrotManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C0388022B340AE900EF33E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C0388032B340AE900EF33E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C0388072B340AEB00EF33E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C0388082B340AEB00EF33E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C03880B2B340AEB00EF33E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C03880C2B340AEB00EF33E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C03880E2B340AEB00EF33E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KRV65Y334;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mandelbrot/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mandelbrot.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C03880F2B340AEB00EF33E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KRV65Y334;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mandelbrot/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mandelbrot.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C0387F42B340AE900EF33E1 /* Build configuration list for PBXProject "Mandelbrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C03880B2B340AEB00EF33E1 /* Debug */,
+				2C03880C2B340AEB00EF33E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C03880D2B340AEB00EF33E1 /* Build configuration list for PBXNativeTarget "Mandelbrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C03880E2B340AEB00EF33E1 /* Debug */,
+				2C03880F2B340AEB00EF33E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C0387F12B340AE900EF33E1 /* Project object */;
+}
